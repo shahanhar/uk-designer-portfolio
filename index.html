@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;900&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300;1,9..40,400&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles/index.css">
+</head>
+<body>
+    <!-- ── NAV ── -->
+  <nav>
+    <span class="nav-logo">Nadia Voss</span>
+    <ul class="nav-links">
+      <li><a href="#work">Work</a></li>
+      <li><a href="#about">About</a></li>
+      <li>
+        <a href="mailto:nadia@example.com" class="nav-contact">
+          <svg viewBox="0 0 24 24"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m2 7 10 7 10-7"/></svg>
+          Contact
+        </a>
+      </li>
+    </ul>
+  </nav>
+
+  <!-- ── HERO ── -->
+  <section class="hero">
+    <div class="hero-grid">
+      <div>
+        <p class="hero-eyebrow">UX Designer — Berlin</p>
+        <h1 class="hero-title">
+          Designing for<br>
+          <span class="accent">clarity</span> and<br>
+          consequence.
+        </h1>
+      </div>
+      <div>
+        <p class="hero-sub">
+          8 years turning messy problems into products people actually use.
+          Currently open to senior IC and lead roles.
+        </p>
+        <a href="#work" class="hero-cta">
+          View selected work
+          <svg viewBox="0 0 24 24"><path d="M7 17 17 7M7 7h10v10"/></svg>
+        </a>
+      </div>
+    </div>
+
+    <div class="ticker">
+      <div class="ticker-line"></div>
+      <div class="ticker-items">
+        <span>UX Research</span>
+        <span>Interaction Design</span>
+        <span>Design Systems</span>
+        <span>Prototyping</span>
+        <span>Information Architecture</span>
+        <span>Accessibility</span>
+        <span>Product Strategy</span>
+        <span>Figma</span>
+      </div>
+      <div class="ticker-line"></div>
+    </div>
+  </section>
+
+  <!-- ── CASE STUDIES ── -->
+  <section class="section" id="work">
+    <div class="section-header">
+      <h2 class="section-title">Selected Work</h2>
+      <span class="section-count">4 projects</span>
+    </div>
+
+    <div class="case-grid">
+
+      <!-- Card 1 (wide) -->
+      <article class="case-card wide">
+        <div class="case-img">
+          <img src="images/photo-1.avif"/>
+          <div class="case-img-overlay"></div>
+          <span class="case-badge">+34% conversion rate</span>
+        </div>
+        <div class="case-body">
+          <p class="case-meta">Meridian Commerce · 2024</p>
+          <div class="case-title-row">
+            <h3 class="case-title">Redesigning Checkout for 2.3M Users</h3>
+            <span class="case-arrow">
+              <svg viewBox="0 0 24 24"><path d="M7 17 17 7M7 7h10v10"/></svg>
+            </span>
+          </div>
+          <p class="case-desc">End-to-end redesign of a multi-step checkout flow. Uncovered critical drop-off points through session recordings and structured interviews, then rebuilt the experience around progressive disclosure and trust signals.</p>
+          <div class="case-tags">
+            <span class="case-tag">UX Research</span>
+            <span class="case-tag">Systems Design</span>
+            <span class="case-tag">A/B Testing</span>
+          </div>
+        </div>
+      </article>
+
+      <!-- Card 2 -->
+      <article class="case-card">
+        <div class="case-img">
+          <img src="images/photo-2.avif" />
+          <div class="case-img-overlay"></div>
+          <span class="case-badge">Launched in 6 months</span>
+        </div>
+        <div class="case-body">
+          <p class="case-meta">Phaeros Health · 2023</p>
+          <div class="case-title-row">
+            <h3 class="case-title">Zero-to-One: AI Diagnostics Dashboard</h3>
+            <span class="case-arrow">
+              <svg viewBox="0 0 24 24"><path d="M7 17 17 7M7 7h10v10"/></svg>
+            </span>
+          </div>
+          <p class="case-desc">Defined information architecture and visual system for a clinical decision-support tool used by radiologists. Heavy focus on cognitive load and accessibility compliance.</p>
+          <div class="case-tags">
+            <span class="case-tag">0→1 Product</span>
+            <span class="case-tag">Data Viz</span>
+            <span class="case-tag">Accessibility</span>
+          </div>
+        </div>
+      </article>
+
+      <!-- Card 3 -->
+      <article class="case-card">
+        <div class="case-img">
+          <img src="images/photo-3.avif" />
+          <div class="case-img-overlay"></div>
+          <span class="case-badge">240 components shipped</span>
+        </div>
+        <div class="case-body">
+          <p class="case-meta">Norda Financial · 2023</p>
+          <div class="case-title-row">
+            <h3 class="case-title">Design System at Scale</h3>
+            <span class="case-arrow">
+              <svg viewBox="0 0 24 24"><path d="M7 17 17 7M7 7h10v10"/></svg>
+            </span>
+          </div>
+          <p class="case-desc">Built a multi-brand token architecture and component library serving 12 product teams. Established contribution governance and shipped comprehensive Figma + code documentation.</p>
+          <div class="case-tags">
+            <span class="case-tag">Design Systems</span>
+            <span class="case-tag">Tokens</span>
+            <span class="case-tag">Documentation</span>
+          </div>
+        </div>
+      </article>
+
+      <!-- Card 4 (wide) -->
+      <article class="case-card wide">
+        <div class="case-img">
+          <img src="https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=800&h=450&fit=crop&auto=format" alt="Mobile Onboarding project" />
+          <div class="case-img-overlay"></div>
+          <span class="case-badge">−28% drop-off on day 1</span>
+        </div>
+        <div class="case-body">
+          <p class="case-meta">Lune Fintech · 2022</p>
+          <div class="case-title-row">
+            <h3 class="case-title">Mobile Onboarding Overhaul</h3>
+            <span class="case-arrow">
+              <svg viewBox="0 0 24 24"><path d="M7 17 17 7M7 7h10v10"/></svg>
+            </span>
+          </div>
+          <p class="case-desc">Restructured a 14-step onboarding sequence into an adaptive flow that surfaces only the steps relevant to each user type. Paired with contextual empty states that communicate value before first action.</p>
+          <div class="case-tags">
+            <span class="case-tag">Mobile</span>
+            <span class="case-tag">Onboarding</span>
+            <span class="case-tag">Retention</span>
+          </div>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- ── BIO ── -->
+  <section class="section" id="about">
+    <div class="bio-card">
+
+      <!-- Portrait -->
+      <div class="bio-portrait">
+        <img src="images/photo-4.avif" alt="Nadia Voss, UX Designer" />
+        <div class="bio-portrait-overlay"></div>
+        <div class="bio-status">
+          <p class="bio-status-label">Currently at</p>
+          <p class="bio-status-value">Freelance / Open to Work</p>
+        </div>
+      </div>
+
+      <!-- Content -->
+      <div class="bio-content">
+        <p class="bio-eyebrow">About</p>
+        <h2 class="bio-heading">
+          Design that earns<br>
+          <span class="dim">its place.</span>
+        </h2>
+        <div class="bio-text">
+          <p>I'm Nadia — a product designer with 8 years across fintech, healthcare, and consumer apps. I care about the unglamorous work: the research session that reframes the problem, the design system decision that saves six engineers two weeks, the handoff doc that actually gets used.</p>
+          <p>Before going independent in 2023, I led design at Norda Financial and Phaeros Health. I've worked on products used by millions and on zero-to-one builds with teams of three. Both contexts taught me that good design is fundamentally an act of listening.</p>
+          <p>When I'm not pushing pixels, I'm cycling around Berlin, contributing to <span class="highlight">Contra Collective</span>, and occasionally writing about cognitive load on Substack.</p>
+        </div>
+
+        <div class="bio-stats">
+          <div>
+            <p class="stat-value">8</p>
+            <p class="stat-label">Years of craft</p>
+          </div>
+          <div>
+            <p class="stat-value">24+</p>
+            <p class="stat-label">Products shipped</p>
+          </div>
+          <div>
+            <p class="stat-value">~12M</p>
+            <p class="stat-label">Users reached</p>
+          </div>
+        </div>
+
+        <ul class="bio-social">
+          <li>
+            <a href="#">
+              <svg viewBox="0 0 24 24"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+              LinkedIn
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <svg viewBox="0 0 24 24"><path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z"/></svg>
+              Twitter
+            </a>
+          </li>
+          <li>
+            <a href="mailto:nadia@example.com">
+              <svg viewBox="0 0 24 24"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m2 7 10 7 10-7"/></svg>
+              Email
+            </a>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ── CTA ── -->
+  <section class="section">
+    <div class="cta-block">
+      <p class="cta-eyebrow">Let's build something</p>
+      <h2 class="cta-heading">Have a project?<br>Let's talk.</h2>
+      <a href="mailto:nadia@example.com" class="cta-btn">
+        <svg viewBox="0 0 24 24"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m2 7 10 7 10-7"/></svg>
+        nadia@example.com
+        <svg viewBox="0 0 24 24"><path d="M7 17 17 7M7 7h10v10"/></svg>
+      </a>
+    </div>
+  </section>
+
+  <!-- ── FOOTER ── -->
+  <footer>
+    <span class="footer-name">Nadia Voss © 2024</span>
+    <span class="footer-location">Berlin, Germany</span>
+  </footer>
+</body>
+</html>
